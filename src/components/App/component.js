@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-import '../CharactersList';
-import CharactersList from "../CharactersList/component";
+import People from '../People';
+import SelectedHero from '../SelectedHero';
 
 class App extends Component {
+
   componentDidMount() {
     fetch('http://swapi.co/api/people/', {
       method: 'GET',
@@ -14,11 +15,14 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.props.people);
+    const { index } = this.props;
+    const condition = index => 0 ? index : null;
 
     return (
       <div className="App">
-        <CharactersList/>
+        <People />
+        {condition && <SelectedHero/>}
+        <div className="clear"/>
       </div>
     );
   }

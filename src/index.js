@@ -8,7 +8,7 @@ import './index.css';
 
 const initialState = {
   people: [],
-  planets: [],
+  index: 0,
   mainCharacter: ''
 };
 
@@ -19,9 +19,14 @@ const reducer = (state, action) => {
         ...state,
         people: [
           ...state.people,
-          action.people
+          ...action.people
         ]
       };
+    case 'SAVE_INDEX':
+      return {
+        ...state,
+        index: action.index
+      }
     default: return state;
   }
 };

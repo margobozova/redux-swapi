@@ -1,0 +1,6 @@
+.selected-hero {
+  position: relative;
+  float: right;
+  min-height: 100vh;
+  width: calc(100vw - 300px);
+}

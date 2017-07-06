@@ -1,0 +1,7 @@
+.people-list {
+  position: relative;
+  float: left;
+  width: 250px;
+  min-height: 100vh;
+  padding: 30px;
+}
