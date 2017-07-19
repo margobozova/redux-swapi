@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2134493d-ed15-4bc3-9946-e5391e895ea4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/SelectedHeroParams/component.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/SelectedHeroParams/container.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/SelectedHeroParams/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/SelectedHeroParams/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/SelectedHero/component.js" afterPath="$PROJECT_DIR$/src/components/SelectedHero/component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/SelectedHero/container.js" afterPath="$PROJECT_DIR$/src/components/SelectedHero/container.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/SelectedHero/styles.css" afterPath="$PROJECT_DIR$/src/components/SelectedHero/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/SelectedHeroParams/component.js" afterPath="$PROJECT_DIR$/src/components/SelectedHeroParams/component.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="component.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="component.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/SelectedHeroParams/component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="340">
+              <caret line="35" column="15" lean-forward="true" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -71,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="component.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="component.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/App/component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            <state relative-caret-position="300">
+              <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -413,12 +405,12 @@
       <workItem from="1499113820785" duration="51000" />
       <workItem from="1499189115809" duration="31099000" />
       <workItem from="1499773977579" duration="69000" />
-      <workItem from="1500235950620" duration="10490000" />
+      <workItem from="1500235950620" duration="11764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56095000" />
+    <option name="totallyTimeSpent" value="57369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1537" height="912" extended-state="6" />
@@ -824,16 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SelectedHeroParams/container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/SelectedHero/component.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -860,21 +842,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SelectedHeroParams/component.js">
+    <entry file="file://$PROJECT_DIR$/src/components/App/component.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="300">
+          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SelectedHeroParams/container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/App/component.js">
+    <entry file="file://$PROJECT_DIR$/src/components/SelectedHeroParams/component.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding />
+          <caret line="35" column="15" lean-forward="true" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

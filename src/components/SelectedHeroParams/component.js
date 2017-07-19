@@ -1,11 +1,21 @@
 import React, { Component } from 'react';
 import './styles.css';
 class SelectedHeroParams extends Component {
+  state = {
+    index: 0,
+    people: this.props.people
+  }
+
+  componentWillReceiveProps(nextProps) {
+    this.setState({index: nextProps.index})
+  }
 
   render() {
-    const { people, index } = this.props;
+    const { people, index } = this.state;
+    console.log(people, index);
 
     const { name, gender } = people[index];
+    console.log(name);
     const birthYear = people[index]['birth_year'];
     return (
       <form name="hero-data">
@@ -13,21 +23,21 @@ class SelectedHeroParams extends Component {
           Name
           <textarea
             name="name"
-            defaultValue={name}
+            value={name}
           />
         </label>
         <label>
           Birth year
           <textarea
             name="birth-year"
-            defaultValue={birthYear}
+            value={birthYear}
           />
         </label>
         <label>
           Gender
           <textarea
             name="gender"
-            defaultValue={gender}
+            value={gender}
           />
         </label>
         <button name="submit" type="submit">SUBMIT</button>
