@@ -1,33 +1,17 @@
 import React, { Component } from 'react';
 import './styles.css';
+import SelectedHeroParams from '../SelectedHeroParams';
 
 class SelectedHero extends Component {
 
   render() {
-
+    const { people } = this.props;
 
     return (
       <div className="selected-hero">
-        <form name="hero-data">
-          <textarea
-            name="name"
-          >
-          </textarea>
-          <textarea
-            name="birth-year"
-          />
-          <textarea
-            name="height"
-          />
-          <textarea
-            name="mass"
-          />
-          <textarea
-            name="gender"
-          />
-          <button name="submit" type="submit">SUBMIT</button>
-        </form>
+        {people.length > 0 &&<SelectedHeroParams/>}
       </div>
+
     );
   }
 }
